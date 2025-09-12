@@ -1,4 +1,4 @@
-# Pixel Dungeon Java 🧩
+# Depths of Code Java 🧩
 
 Projeto de **estudo e prática de desenvolvimento de jogos em Java**.  
 Objetivo: recriar um roguelike inspirado em _Pixel Dungeon_, aprendendo conceitos como **game loop, tilemaps, geração procedural, combate, inventário e field of view**.
@@ -87,12 +87,12 @@ O desenvolvimento será acompanhado por estudos semanais em:
    ```
    2.Entre na pasta do projeto:
    `bash
-    cd PixelDungeonJava
-    `
+cd PixelDungeonJava
+`
    3.Compile e rode:
    `bash
-    gradle run
-    `
+gradle run
+`
 
 ---
 
