@@ -85,11 +85,11 @@ O desenvolvimento será acompanhado por estudos semanais em:
    ```bash
    git clone https://github.com/SEU_USUARIO/Depths-of-Code.git
    ```
-   2.Entre na pasta do projeto:
+2.Entre na pasta do projeto:
    ```bash
    cd src/com/depthofcode/game
    ```
-   3.Compile e rode:
+3.Compile e rode:
    ```bash
    gradle run
    ```
