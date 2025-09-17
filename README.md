@@ -32,7 +32,7 @@ O código está em constante evolução e pode conter experimentos e soluções 
 
 ### Fase 1 — Motor básico
 
-- [ ] Criar janela do jogo (`JFrame` + `Canvas`).
+- [✅] Criar janela do jogo (`JFrame` + `Canvas`).
 - [ ] Implementar loop de jogo (update + render).
 - [ ] Capturar input do teclado.
 - [ ] Mostrar FPS/UPS na tela.
@@ -86,13 +86,13 @@ O desenvolvimento será acompanhado por estudos semanais em:
    git clone https://github.com/SEU_USUARIO/Depths-of-Code.git
    ```
    2.Entre na pasta do projeto:
-   `bash
-cd PixelDungeonJava
-`
+   ```bash
+   cd src/com/depthofcode/game
+   ```
    3.Compile e rode:
-   `bash
-gradle run
-`
+   ```bash
+   gradle run
+   ```
 
 ---
 
