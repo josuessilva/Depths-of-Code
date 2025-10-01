@@ -4,9 +4,15 @@ import javax.swing.SwingUtilities;
 
 import java.awt.*;
 
-class GamePanel extends JPanel{
+class GamePanel extends JPanel implements Runnable {
+
+    private boolean running = true;
 
     public GamePanel(){
+
+
+
+        new Thread(this).start();
 
     }
 
@@ -18,6 +24,48 @@ class GamePanel extends JPanel{
         g.fillRect(0,0,getWidth(),getHeight());
 
     }
+    public void mover(){
+
+    }
+    public void colisao(){
+
+    }
+
+    public void render(){
+        repaint();
+
+    }
+    public void update(){
+        mover();
+        colisao();
+    }
+
+
+
+
+    @Override
+    public void run(){
+
+        while(running){
+
+            render();
+            update();
+
+
+            try {
+                Thread.sleep(16);
+            } catch (InterruptedException e) {
+                System.out.println("Thread Erro : "+ e);
+                break;
+            }
+        }
+
+
+    }
+
+
+
+
 }
 
 public class Main{
