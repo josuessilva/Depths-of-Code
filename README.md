@@ -33,7 +33,7 @@ O código está em constante evolução e pode conter experimentos e soluções 
 ### Fase 1 — Motor básico
 
 - [✅] Criar janela do jogo (`JFrame` + `Canvas`).
-- [ ] Implementar loop de jogo (update + render).
+- [✅] Implementar loop de jogo (update + render).
 - [ ] Capturar input do teclado.
 - [ ] Mostrar FPS/UPS na tela.
 
