@@ -34,12 +34,12 @@ O código está em constante evolução e pode conter experimentos e soluções 
 
 - [✅] Criar janela do jogo (`JFrame` + `Canvas`).
 - [✅] Implementar loop de jogo (update + render).
-- [ ] Capturar input do teclado.
+- [✅] Capturar input do teclado.
 - [ ] Mostrar FPS/UPS na tela.
 
 ### Fase 2 — Mundo e movimento
 
-- [ ] Criar player como quadrado que se move.
+- [✅] Criar player como quadrado que se move.
 - [ ] Implementar tilemap fixo (chão/parede).
 - [ ] Colisão básica com paredes.
 - [ ] Implementar câmera que segue o player.
